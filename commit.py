@@ -1,5 +1,5 @@
 from __future__ import print_function
-
+change
 ##### 
 # Computer Science and Software Engineering
 # PLTW AP CS Principles
@@ -11,7 +11,7 @@ from __future__ import print_function
 # To run a tournament, execute this file. 
 # Place each team's strategy in a file in the same directory as this file.
 # Tournament results saved to tournament.txt in this directory.
-# ayy its ya boi
+#
 # prisoners_dilemma.py automates competition among different strategies
 # for the Iterative Prisoners Dilemma, the canonical game of game-theory.
 # Each strategy is pitted against each other strategy for 100 to 200 rounds.
@@ -29,7 +29,7 @@ from __future__ import print_function
 # play a tournament. To run the tournament of [team, team1, team1, example1]:
 # scores, moves, reports = main_play([team1]*3+[example1])
 # section0, section1, section2, section3 = reports
-#######This is Rocco Zirille's #9
+#######
 import random
 import os.path              
     
