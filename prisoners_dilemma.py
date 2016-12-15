@@ -56,7 +56,7 @@ def main_play(modules):
     This function is called once when this file is executed.
     modules: a list of modules such as [team1, team2]    
     
-    Returns:
+    Returns: I dont like this
         scores:
         moves:
         sections: a list of [str, str, str, list of str]    
