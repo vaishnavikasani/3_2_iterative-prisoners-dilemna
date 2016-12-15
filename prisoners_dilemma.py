@@ -11,7 +11,7 @@ from __future__ import print_function
 # To run a tournament, execute this file. 
 # Place each team's strategy in a file in the same directory as this file.
 # Tournament results saved to tournament.txt in this directory.
-#
+# ayy its ya boi
 # prisoners_dilemma.py automates competition among different strategies
 # for the Iterative Prisoners Dilemma, the canonical game of game-theory.
 # Each strategy is pitted against each other strategy for 100 to 200 rounds.
