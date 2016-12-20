@@ -78,7 +78,7 @@ def play_tournament(modules):
         strategy_description: a string
         move: A function that returns 'c' or 'b'
     '''
-    zeros_list = [0]*len(modules) # to initialize each player's head-to-head scores
+    zeros_list = [0]*len(modules) # to initialize each player's head-to-head scores?
     scores = [zeros_list[:] for module in modules] # Copy it or it's only 1 list
     moves = [zeros_list[:] for module in modules] # Copy it or it's only 1 list
     for first_team_index in range(len(modules)):
