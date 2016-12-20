@@ -20,7 +20,7 @@ from __future__ import print_function
 # to both players. 
 #
 # play_tournament([team0, team1, team2]) executes a tournament and writes to tournament.txt
-#
+#Troy Rusk
 # Each team's strategy should be coded in their assigned Python file, called a module.
 # Each player should have their own .py file containing 
 # three strings team_name, strategy_name, and strategy_description
@@ -57,7 +57,7 @@ def main_play(modules):
     This function is called once when this file is executed.
     modules: a list of modules such as [team1, team2]    
     
-    Returns:
+    Returns: I dont like this
         scores:
         moves:
         sections: a list of [str, str, str, list of str]    
