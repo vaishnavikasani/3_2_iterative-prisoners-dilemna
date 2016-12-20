@@ -66,7 +66,7 @@ def main_play(modules):
     code = make_code_string(modules)
     # On screen, include the first Three out of four sections of the report.
     print(section0+section1+section2)
-    # To file output, store all Teams' code And All teams' section 3 reports.
+    # To file output, store all Teams' code And All teams' section 3 reports!
     post_to_file(section0+section1+section2 + code + ''.join(section3))
     return scores, moves, [section0, section1, section2, section3]
         
