@@ -100,13 +100,13 @@ def play_tournament(modules):
 
 def play_iterative_rounds(player1, player2):
     '''
-    Plays a random number of rounds (between 100 and 200 rounds) 
+    Plays a random number of rounds (between 20 and 100 rounds) 
     of the iterative prisoners' dilemma between two strategies.
     player1 and player2 are modules.
     Returns 4-tuple, for example ('cc', 'bb', -200, 600) 
     but with much longer strings 
     '''
-    number_of_rounds = random.randint(100, 200)
+    number_of_rounds = random.randint(20, 100)
     moves1 = ''
     moves2 = ''
     score1 = 0
