@@ -1,3 +1,4 @@
+@@ -0,0 +1,384 @@
 from __future__ import print_function
 
 ##### 
@@ -7,11 +8,11 @@ from __future__ import print_function
 #
 # Activity 1.3.9 Tools for Collaboration
 # Project 1.3.10 Collaborating on a Project
-# Jackson Kaiser
+# 
 # To run a tournament, execute this file. 
 # Place each team's strategy in a file in the same directory as this file.
 # Tournament results saved to tournament.txt in this directory.
-# ayy its ya boi
+#
 # prisoners_dilemma.py automates competition among different strategies
 # for the Iterative Prisoners Dilemma, the canonical game of game-theory.
 # Each strategy is pitted against each other strategy for 100 to 200 rounds.
@@ -29,7 +30,8 @@ from __future__ import print_function
 # play a tournament. To run the tournament of [team, team1, team1, example1]:
 # scores, moves, reports = main_play([team1]*3+[example1])
 # section0, section1, section2, section3 = reports
-#######This is Rocco Zirille's #9
+#I am team6
+#######
 import random
 import os.path              
     
@@ -44,6 +46,7 @@ collude = example0
 modules = [example0, example1, example2, example3, example4, example5, example6, example7,
 team0, team1, team2, team3, team4, team5, team6, team7, team8, team9, team10, 
 team11, team12, team13, team14]
+
 for module in modules:
     reload(module)
     print ('reloaded',module)
@@ -375,10 +378,9 @@ def post_to_file(string, filename='tournament.txt', directory=''):
     # Create the file for the round-by-round results
     filehandle = open(filename,'w')
     filehandle.write(string)
-    #JAcob Scott
+ 
 ### Call main_play() if this file is executed
 if __name__ == '__main__':
     scores, moves, reports = main_play(modules[0:4])   
     section0, section1, section2, section3 = reports
-    
-    
+\ No newline at end of file
