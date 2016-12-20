@@ -10,7 +10,7 @@ from __future__ import print_function
 # 
 # To run a tournament, execute this file. 
 # Place each team's strategy in a file in the same directory as this file.
-# Tournament results saved to tournament.txt in this directory.
+# Tournament Results saved to tournament.txt in this directory.
 #
 # prisoners_dilemma.py automates competition among different strategies
 # for the Iterative Prisoners Dilemma, the canonical game of game-theory.
@@ -64,9 +64,9 @@ def main_play(modules):
     scores, moves = play_tournament(modules)
     section0, section1, section2, section3 = make_reports(modules, scores, moves)
     code = make_code_string(modules)
-    # On screen, include the first three out of four sections of the report.
+    # On screen, include the first Three out of four sections of the report.
     print(section0+section1+section2)
-    # To file output, store all teams' code and all teams' section 3 reports.
+    # To file output, store all Teams' code And All teams' section 3 reports.
     post_to_file(section0+section1+section2 + code + ''.join(section3))
     return scores, moves, [section0, section1, section2, section3]
         
